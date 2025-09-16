@@ -4,3 +4,13 @@
 nav a{
   margin-right: 60px;
 }
+:root {
+  --color-text: #2E3A59;     
+  --color-primary: #256EFF;  
+  --color-secondary: #FF8C42; 
+  --color-primary-hover: #1f5ed1;
+  --color-secondary-hover: #e6762f;
+  --lineas: #2E3A5980;
+  /* ? Queda pendiente agregar el color del background en ciertas areas */
+}
+

@@ -4,7 +4,7 @@ import { SocialMedia } from "./SocialMedia";
 
 export const Hero = () => {
   return (
-    <section>
+    <section className="w-full h-[100vh]">
       <SocialMedia />
       <div>
         <p className="pt-[20px] text-[var(--color-text)] text-center font-[Roboto_Condensed] text-[13vw] not-italic font-extrabold leading-normal">
@@ -19,6 +19,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

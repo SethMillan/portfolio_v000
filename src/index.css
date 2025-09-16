@@ -4,6 +4,20 @@
 nav a{
   margin-right: 60px;
 }
+/* ? Aqui hice el subrayado de los titulos de navegacion*/
+nav a::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+  transition: all 0.3s ease;
+}
+nav a:hover::after {
+  width: 100%;
+}
 :root {
   --color-text: #2E3A59;     
   --color-primary: #256EFF;  

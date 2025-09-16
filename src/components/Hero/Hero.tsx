@@ -1,4 +1,4 @@
-import { BtnFilled } from "../btn/button_filled";
+import { BtnFilled } from "../btn/BtnFilled";
 import { Moon } from "./moon";
 import { SocialMedia } from "./SocialMedia";
 

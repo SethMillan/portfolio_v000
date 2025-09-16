@@ -6,6 +6,9 @@ export default function AboutMe() {
       <p className="text-gray-800 leading-relaxed">
         Probando tailwindcss con vite y react.
       </p>
+      <div>
+        button_filled
+      </div>
     </section>
   );
 }

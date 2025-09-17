@@ -1,16 +1,18 @@
-import './App.css'
-import About from './components/About/About'
-import { Header } from './components/Header/Header'
-import { Hero } from './components/Hero/Hero'
+import "./App.css";
+import About from "./components/About/About";
+import { Header } from "./components/Header/Header";
+import { Hero } from "./components/Hero/Hero";
 
 function App() {
   return (
     <>
-    <Header />
-    <Hero />
-    <About/>
+      <div className="bg-[--background]">
+        <Header />
+        <Hero />
+        <About />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

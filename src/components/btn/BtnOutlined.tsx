@@ -10,7 +10,7 @@ export const BtnOutlined = ({ children, color, letra }: ButtonProps) => {
   const textColor = `var(${color})`;
   const fontSize = letra;
     // ? Use una variable independiente pasandola por style para evitar problemas con tailwind
-    const base = `bg-transparent border-2 text-center font-[Roboto_Condensed] font-bold py-2 px-4 rounded transition duration-200 `;
+    const base = `border-[var(${color})] text-[var(${color})]  bg-transparent border-2 text-center font-[Roboto_Condensed] font-bold py-2 px-6 transition duration-200 hover:bg-[var(${color})] hover:text-white hover:scale-105 hover:shadow-lg cursor-pointer hover:scale-110 hover:shadow-lg`;
 
-  return <button style={{color:textColor, borderColor: textColor, fontSize: fontSize}} className={base}>{children}</button>;
+  return <button style={{ fontSize: fontSize, borderRadius: '18px'}} className={base}>{children}</button>;
 };

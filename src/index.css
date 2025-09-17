@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 nav a{
@@ -25,6 +26,7 @@ nav a:hover::after {
   --color-primary-hover: #1f5ed1;
   --color-secondary-hover: #e6762f;
   --lineas: #2E3A5980;
+  --background: #F5F7FA;
   /* ? Queda pendiente agregar el color del background en ciertas areas */
 }
 

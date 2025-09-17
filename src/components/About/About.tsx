@@ -1,13 +1,36 @@
+import { BtnFilled } from "../btn/BtnFilled";
+import { BtnOutlined } from "../btn/BtnOutlined";
+
 // AboutMe.tsx
 export default function AboutMe() {
   return (
-    <section className="w-full max-w-3xl mx-auto p-6 bg-[#D9D9D9] rounded-2xl shadow-md">
-      <h2 className="text-2xl font-bold mb-4">Sobre mí</h2>
-      <p className="text-gray-800 leading-relaxed">
-        Probando tailwindcss con vite y react.
+    <section className="w-full h-[100vh] max-w-7xl mx-auto p-6 ">
+      <p className="text-[var(--color-secondary)] font-[Roboto_Condensed] text-[42px] italic font-semibold leading-normal">
+        🚀 ABOUT ME
       </p>
-      <div>
-        button_filled
+      <p className="pt-2 text-[var(--color-text)] font-[Roboto_Condensed] text-[54px] not-italic font-extrabold leading-normal">
+        BEST PROJECT LEAD 
+      </p>
+      <p className="-mt-3 text-[var(--color-text)] font-[Roboto_Condensed] text-[54px] not-italic font-extrabold leading-normal">
+        & DEVELOPER IN LATAM 
+      </p>
+      
+      <p className="pt-2 text-[var(--color-text)] text-justify font-[Open_Sans] text-[28px] not-italic font-normal leading-[42px]">
+        My professional goal is to create solutions that drive growth <br/> and digital transformation within organizations.
+      </p>
+
+      <div className="pt-8 flex justify-between items-center max-w-lg">
+        <BtnFilled color={"--color-primary"} letra={"28px"}>
+          DOWNLOAD CV
+          <img
+            src="/icons/download.svg"
+            alt="Download Icon"
+            className="inline-block ml-2 w-9 h-9"
+          />
+        </BtnFilled>
+        <BtnOutlined color={"--color-primary"} letra={"28px"}>
+          CONTACT ME !
+        </BtnOutlined>
       </div>
     </section>
   );

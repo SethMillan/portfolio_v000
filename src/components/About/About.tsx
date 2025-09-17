@@ -6,7 +6,7 @@ import { Stats } from "./Stats";
 // AboutMe.tsx
 export default function AboutMe() {
   return (
-    <section className="w-full h-[120vh] mx-auto p-6 flex relative z-4">
+    <section id="About" className="w-full h-[120vh] mx-auto p-6 flex relative z-4">
       <div className="pl-30">
         <p className="text-[var(--color-secondary)] font-[Roboto_Condensed] text-[42px] italic font-semibold leading-normal">
           🚀 ABOUT ME

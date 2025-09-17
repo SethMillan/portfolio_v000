@@ -3,7 +3,7 @@ import { Card } from "./Card";
 
 export const Service = () => {
   return (
-    <div className="h-[120vh] flex flex-col items-center justify-center gap-10 bg-[var(--background-secondary)] py-20 px-5 relative">
+    <div id="Service" className="h-[120vh] flex flex-col items-center justify-center gap-10 bg-[var(--background-secondary)] py-20 px-5 relative">
       <h3 className="text-[#2E3A59] font-['Roboto_Condensed'] text-[56px] font-extrabold">
         Service
       </h3>

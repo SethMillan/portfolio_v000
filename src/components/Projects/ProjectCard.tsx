@@ -12,7 +12,7 @@ export const ProjectCard = ({
   codeUrl?: string;
 }) => {
   return (
-    <div className="w-[400px] bg-[var(--background-card)] h-auto rounded-2xl p-6 shadow-xl  flex flex-col align-start  hover:scale-101 hover:shadow-xl transition-shadow transition-transform duration-300 ">
+    <div id="Project" className="w-[400px] bg-[var(--background-card)] h-auto rounded-2xl p-6 shadow-xl  flex flex-col align-start  hover:scale-101 hover:shadow-xl transition-shadow transition-transform duration-300 ">
       <h3 className="font-[Roboto_Condensed] text-[32px] text-[var(--color-text)] bold font-bold pt-4 select-none">
         {title}
       </h3>

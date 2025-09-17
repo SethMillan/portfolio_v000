@@ -7,7 +7,7 @@ export const Contact = () => {
 */
 
   return (
-    <section className="py-16 px-8 flex justify-center items-center min-h-screen gap-20">
+    <section id="Contact" className="py-16 px-8 flex justify-center items-center min-h-screen gap-20">
       <div className="rotate-180">
         <Nave></Nave>
       </div>

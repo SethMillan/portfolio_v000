@@ -3,11 +3,11 @@ import { Card } from "./Card";
 
 export const Service = () => {
   return (
-    <div className="h-[110vh] flex flex-col items-center justify-center gap-10 bg-[var(--background-secondary)] py-20 px-5 relative">
+    <div className="h-[120vh] flex flex-col items-center justify-center gap-10 bg-[var(--background-secondary)] py-20 px-5 relative">
       <h3 className="text-[#2E3A59] font-['Roboto_Condensed'] text-[56px] font-extrabold">
         Service
       </h3>
-      <div className="flex w-[80%] justify-center items-center gap-15">
+      <div className="flex w-[80%] justify-center items-center gap-15 z-4 bg-[var(--background-secondary)]">
         <Card
           title={"Software Development"}
           description={
@@ -41,8 +41,9 @@ export const Service = () => {
           color={"--color-secondary"}
         />
       </div>
+      <div className="bg-[var(--background-secondary)] absolute bottom-10 h-8 w-full z-4"></div>
       <svg
-        className="absolute left-0 -bottom-52 -z-1"
+        className="absolute left-0 -bottom-52 z-3"
         xmlns="http://www.w3.org/2000/svg"
         width="full"
         height="280"
@@ -56,7 +57,7 @@ export const Service = () => {
         />
       </svg>
       <svg
-        className="absolute left-0 -bottom-54 -z-2"
+        className="absolute left-0 -bottom-54 z-2"
         xmlns="http://www.w3.org/2000/svg"
         width="full"
         height="280"
@@ -74,5 +75,5 @@ export const Service = () => {
 /*
 * Aqui tambien agregue los svg del figma para que se vieran hasta abajo, y de igual forma le puse posicion relativa a la seccion padre
 * para que las olas se posicionaran con respecto a esta, ademas de que le puse una clase absoluta a las olas para posicionarlas bien
-* y un z-index por que una tiene un bordeo claro y queria que se remarcara sobre la otra 
+* y un z-index por que una tiene un bordeo claro y queria que se remarcara sobre la otra jaja
 */

@@ -36,7 +36,7 @@ export const ProjectsSection = () => {
   ];
 
   return (
-    <section className="py-16 px-8 pt-60">
+    <section className="py-16 px-8 pt-60 h-[120vh]">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12 text-[var(--color-text)] font-[Roboto_Condensed] select-none">
           My Projects

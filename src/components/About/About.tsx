@@ -6,7 +6,7 @@ import { Stats } from "./Stats";
 // AboutMe.tsx
 export default function AboutMe() {
   return (
-    <section className="w-full h-[120vh] mx-auto p-6 flex relative">
+    <section className="w-full h-[120vh] mx-auto p-6 flex relative z-4">
       <div className="pl-30">
         <p className="text-[var(--color-secondary)] font-[Roboto_Condensed] text-[42px] italic font-semibold leading-normal">
           🚀 ABOUT ME
@@ -41,8 +41,9 @@ export default function AboutMe() {
       <div className="flex flex-1 items-center justify-center -mt-25 ">
         <Nave></Nave>
       </div>
+      <div className="bg-[var(--background-secondary)] absolute -bottom-20 h-8 w-full z-4 left-0"></div>
       <svg
-        className="absolute left-0 -bottom-22 -z-1"
+        className="absolute left-0 -bottom-22 z-3"
         xmlns="http://www.w3.org/2000/svg"
         width="full"
         height="381"
@@ -57,7 +58,7 @@ export default function AboutMe() {
       </svg>
       
       <svg
-        className="absolute left-0 -bottom-20 -z-2"
+        className="absolute left-0 -bottom-20 z-2"
         xmlns="http://www.w3.org/2000/svg"
         width="full"
         height="381"

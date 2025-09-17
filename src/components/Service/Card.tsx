@@ -22,7 +22,7 @@ export const Card = ({
         </h3>
         <img src={icon} alt={`${title} icon`} className="w-16 h-16 mb-4" />
       </div>
-      <p className="text-[var(--color-text)] text-left font-[Open_Sans] text-[24px] font-light not-italic leading-normal w-[85%]">
+      <p className="text-[var(--color-text)] text-left font-[Open_Sans] text-[24px] font-light not-italic  w-[85%]">
         {description}
       </p>
 

@@ -25,6 +25,7 @@ nav a:hover::after {
   --color-secondary: #FF8C42; 
   --color-primary-hover: #1f5ed1;
   --color-secondary-hover: #e6762f;
+  --color-card: #FFFFFF;
   --lineas: #2E3A5980;
   --background: #F5F7FA;
   /* ? Queda pendiente agregar el color del background en ciertas areas */

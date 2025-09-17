@@ -8,34 +8,30 @@ export const ProjectsSection = () => {
       title: "Cafeteria E-commerce",
       description:
         "Full-featured admin panel for an online store with product management, order tracking, and real-time analytics.",
-      category: "Web App",
       technologies: ["./icons/html.png", "./icons/css.png", "./icons/js.png"],
-      liveUrl: "https://example.com/demo1",
-      codeUrl: "https://github.com/user/project1",
+      liveUrl: "https://kopi-pearl.vercel.app/",
+      codeUrl: "https://github.com/SethMillan/Kopi",
     },
     {
       id: 2,
-      title: "C# Tetris Game",
-      description:"Classic Tetris game built with C#, featuring smooth controls, scoring system, and increasing difficulty levels.",
-      category: "Game",
-      technologies: ["./icons/c_sharp.png"],
-      liveUrl:
-        "https://play.google.com/store/apps/details?id=com.example.taskapp",
-      codeUrl: "https://github.com/user/project2",
-    },
-    {
-      id: 3,
       title: "Pokemon API",
       description:"RESTful API that provides detailed Pokémon data including stats, abilities, and evolutions for developers and fans.",
-      category: "API",
       technologies: [
         "./icons/html.png",
         "./icons/css.png",
         "./icons/js.png",
         "./icons/astro.webp",
       ],
-      liveUrl: "https://example.com/chatbot",
-      codeUrl: "https://github.com/user/chatbot",
+      liveUrl: "noay",
+      codeUrl: "https://github.com/SethMillan/astro-5-pokemon",
+    },
+    {
+      id: 3,
+      title: "Mezcales Website",
+        description:"Personal portfolio website showcasing projects, skills, and contact information with a modern design.",
+      technologies: ["./icons/html.png", "./icons/css.png", "./icons/js.png","./icons/astro.webp"],
+      liveUrl: "https://mezcal-elaferrado.vercel.app/",
+      codeUrl: "https://github.com/SethMillan/mezcal-web",
     },
   ];
 
@@ -51,7 +47,6 @@ export const ProjectsSection = () => {
               key={project.id}
               title={project.title}
               description={project.description}
-              category={project.category}
               technologies={project.technologies}
               liveUrl={project.liveUrl}
               codeUrl={project.codeUrl}
